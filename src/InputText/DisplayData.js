@@ -53,6 +53,7 @@ const DisplayData = () => {
                 fn: (a, b) => a.srno - b.srno
             }
         };
+        console.log('testfg32')
         // setRecord([...record ])
         // setRecord([...record, newRecord]);
 
