@@ -1,0 +1,111 @@
+
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+
+.App {
+  text-align: center;
+}
+
+
+.navbar {
+  width : 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+.ui.cards > .card > .image {
+  height: 250px;
+  padding: 20px;
+  background: #fff;
+  margin: auto;
+}
+
+.ui.cards > .card > .image > img {
+  height: 100%;
+  max-width: 100%;
+  width: auto;
+ 
+}
+
+.bottomheight {
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.imgPosition {
+  text-align: center;
+}
+
+
+  h1{
+    font-size: 20px;
+    margin: 20px;
+    padding-top: 50px ;
+  }
+
+  .input-parent  {
+    background-color: rgb(215, 181, 7);
+    width : 450px;
+    height : 300px;
+    color : #fff;
+    border-radius: 40;
+    position: absolute;
+    top : 10%;
+    left : 30%
+  }
+
+  .txtStyle {
+    border-style: none;
+    border-radius: 10;
+  }
+
+input{
+  height: 35px;
+  width: 30%;
+  font-size: 15px;
+}
+
+.container {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+.container > form {
+  width: 70%;
+  border: 1px solid #dfdfdf;
+  padding: 20px;
+  border-radius: 5px;
+  background: #fff;
+}
+pre {
+  width: 70%;
+  color: #fff;
+  font-size: larger;
+}
+
+button {
+  background: #05f32d !important;
+  width: 100px;
+}
+p {
+  color: red;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

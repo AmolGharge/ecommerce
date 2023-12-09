@@ -1,0 +1,17 @@
+.avatarStyle img{
+    display: inline-block;
+    height: 200px;
+    height: 200px;
+}
+
+.cardStyle {
+    background-color: chocolate;
+    box-shadow: 5px 5px 8px #888888;
+}
+
+h5 {
+    color: white;
+}
+p {
+    color: white;
+}
